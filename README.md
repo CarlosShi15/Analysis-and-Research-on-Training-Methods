@@ -7,4 +7,8 @@ Practical operation: Nine articles were selected to conduct supervision training
 
 When there is training, Next, I will conduct 10 rounds of training on reading scientific literature for you. Firstly, I will provide you with a document that requires you to read the content and summarize its main content. At the end of each round, I will provide you with feedback on the accuracy score of key information extraction, accuracy score of language expression (BLEU score), completeness score of information (Jaccard distance), and topic relevance score (cosine similarity). You should try to improve these scores as much as possible during the training process. Then, after each round of training, feedback each score and ask it to improve, repeat nine times, and throw the last time to the model to test the paper documents sent in the first round, get the tenth round of scores, and then compare with the first round to get the training results.
 
-Actually the code can be straighlty utilize. 
+Actually the code can be straighlty utilized. The following is the process.
+
+First, you need to ensure that you have downloaded the nltk model and the punkt package. 
+
+Then you can assign a piece of text that you want to check to summary and then write out the path of the pdf in your computer. After finishing above, all you need to do is just run it.
